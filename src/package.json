@@ -1,0 +1,14 @@
+{  
+   "name":"message-crypter",
+   "productName":"String Encrypter/Decrypter",
+   "version":"2.0.0",
+   "description":"A String Encrypter And Decrypter App With A MD UI",
+   "main":"main.js",
+   "author":"Gian Singh Sarao",
+   "devDependencies":{
+      "electron":"^1.4.13"
+   },
+   "scripts":{
+      "start":"electron main.js"
+   }
+}

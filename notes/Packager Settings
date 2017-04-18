@@ -1,0 +1,27 @@
+         "electronPackagerConfig":{  
+           "dir":"./src",
+           "all":true,
+           "app-copyright":"Universe",
+           "app-version":"2.0.0.0",
+           "asar":false,
+           "build-version":"0.0.4.9",
+           "icon":"./icon",
+           "out":"./Packaged",
+           "overwrite":true,
+           "win32metadata":{  
+              "CompanyName":"Universe.",
+              "FileDescription":"String Encrypter And Decrypter",
+              "OriginalFileName":"crypter.exe",
+              "ProductName":"String Encrypter/Decrypter",
+              "InternalName":"crypter"
+           }
+         },
+
+
+
+---------------------------------------------------------
+cli command
+---------------------------------------------------------
+
+
+electron-packager ./src --all --app-copyright="Universe" --app-version="2.0.0.0" --build-version="0.0.4.9" --icon="./icon" --out="./Packaged" --win32metadata.CompanyName="Universe." --win32metadata.FileDescription="String Encrypter And Decrypter" --win32metadata.OriginalFileName="crypter.exe" --win32metadata.ProductName="String Encrypter/Decrypter" --win32metadata.InternalName="crypter"
